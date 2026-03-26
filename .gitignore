@@ -1,0 +1,29 @@
+/.vscode
+/README.md
+
+# Environment variables (contains API URLs and secrets)
+**/.env.local
+**/.env
+.env.local
+.env
+
+# Dependencies
+**/node_modules
+node_modules/
+
+# Next.js
+**/.next
+.next/
+**/out
+
+# Build outputs
+**/dist
+**/build
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db

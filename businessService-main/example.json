@@ -1,0 +1,2302 @@
+{
+    "analysis": {
+        "input": {
+            "product": "iphone 16 pro max",
+            "startDate": "2025-01-01",
+            "endDate": "2025-05-25",
+            "videoCount": 20,
+            "commentCount": 20
+        },
+        "inventory": [
+            {
+                "Beginning Inventory": 182,
+                "COGS": 73857.29,
+                "Ending Inventory": 40,
+                "Sales": 142,
+                "Target Turnover": 1000,
+                "id": "INV2025-01-iphone",
+                "period": "2025-01"
+            },
+            {
+                "Beginning Inventory": 151,
+                "COGS": 111784.22,
+                "Ending Inventory": 41,
+                "Sales": 110,
+                "Target Turnover": 1000,
+                "id": "INV2025-02-iphone",
+                "period": "2025-02"
+            },
+            {
+                "Beginning Inventory": 162,
+                "COGS": 50279.25,
+                "Ending Inventory": 26,
+                "Sales": 136,
+                "Target Turnover": 1000,
+                "id": "INV2025-03-iphone",
+                "period": "2025-03"
+            },
+            {
+                "Beginning Inventory": 167,
+                "COGS": 169542.11,
+                "Ending Inventory": 1,
+                "Sales": 166,
+                "Target Turnover": 1000,
+                "id": "INV2025-04-iphone",
+                "period": "2025-04"
+            },
+            {
+                "Beginning Inventory": 103,
+                "COGS": 16884.47,
+                "Ending Inventory": 51,
+                "Sales": 52,
+                "Target Turnover": 1000,
+                "id": "INV2025-05-iphone",
+                "period": "2025-05"
+            },
+            {
+                "Beginning Inventory": 100,
+                "COGS": 50000,
+                "Ending Inventory": 50,
+                "Sales": 50,
+                "Target Turnover": 1000,
+                "id": "INV2025-07-iphone",
+                "period": "2025-07"
+            }
+        ],
+        "trend": {
+            "trend": {
+                "start_value": 87,
+                "end_value": 70,
+                "percent_change": -19.54,
+                "trend": "downward"
+            },
+            "timeline": [
+                {
+                    "date": "Jan 1, 2025",
+                    "timestamp": "1735689600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "87",
+                            "extracted_value": 87
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 2, 2025",
+                    "timestamp": "1735776000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "100",
+                            "extracted_value": 100
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 3, 2025",
+                    "timestamp": "1735862400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "96",
+                            "extracted_value": 96
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 4, 2025",
+                    "timestamp": "1735948800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "81",
+                            "extracted_value": 81
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 5, 2025",
+                    "timestamp": "1736035200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "91",
+                            "extracted_value": 91
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 6, 2025",
+                    "timestamp": "1736121600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "78",
+                            "extracted_value": 78
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 7, 2025",
+                    "timestamp": "1736208000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "88",
+                            "extracted_value": 88
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 8, 2025",
+                    "timestamp": "1736294400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "84",
+                            "extracted_value": 84
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 9, 2025",
+                    "timestamp": "1736380800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "83",
+                            "extracted_value": 83
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 10, 2025",
+                    "timestamp": "1736467200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "79",
+                            "extracted_value": 79
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 11, 2025",
+                    "timestamp": "1736553600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "92",
+                            "extracted_value": 92
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 12, 2025",
+                    "timestamp": "1736640000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "77",
+                            "extracted_value": 77
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 13, 2025",
+                    "timestamp": "1736726400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "76",
+                            "extracted_value": 76
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 14, 2025",
+                    "timestamp": "1736812800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "84",
+                            "extracted_value": 84
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 15, 2025",
+                    "timestamp": "1736899200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "81",
+                            "extracted_value": 81
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 16, 2025",
+                    "timestamp": "1736985600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "74",
+                            "extracted_value": 74
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 17, 2025",
+                    "timestamp": "1737072000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "71",
+                            "extracted_value": 71
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 18, 2025",
+                    "timestamp": "1737158400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "74",
+                            "extracted_value": 74
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 19, 2025",
+                    "timestamp": "1737244800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "83",
+                            "extracted_value": 83
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 20, 2025",
+                    "timestamp": "1737331200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "72",
+                            "extracted_value": 72
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 21, 2025",
+                    "timestamp": "1737417600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "72",
+                            "extracted_value": 72
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 22, 2025",
+                    "timestamp": "1737504000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "68",
+                            "extracted_value": 68
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 23, 2025",
+                    "timestamp": "1737590400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "79",
+                            "extracted_value": 79
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 24, 2025",
+                    "timestamp": "1737676800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "74",
+                            "extracted_value": 74
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 25, 2025",
+                    "timestamp": "1737763200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "87",
+                            "extracted_value": 87
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 26, 2025",
+                    "timestamp": "1737849600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "82",
+                            "extracted_value": 82
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 27, 2025",
+                    "timestamp": "1737936000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "72",
+                            "extracted_value": 72
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 28, 2025",
+                    "timestamp": "1738022400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "59",
+                            "extracted_value": 59
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 29, 2025",
+                    "timestamp": "1738108800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "63",
+                            "extracted_value": 63
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 30, 2025",
+                    "timestamp": "1738195200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "72",
+                            "extracted_value": 72
+                        }
+                    ]
+                },
+                {
+                    "date": "Jan 31, 2025",
+                    "timestamp": "1738281600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "66",
+                            "extracted_value": 66
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 1, 2025",
+                    "timestamp": "1738368000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "78",
+                            "extracted_value": 78
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 2, 2025",
+                    "timestamp": "1738454400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "78",
+                            "extracted_value": 78
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 3, 2025",
+                    "timestamp": "1738540800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "57",
+                            "extracted_value": 57
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 4, 2025",
+                    "timestamp": "1738627200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "70",
+                            "extracted_value": 70
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 5, 2025",
+                    "timestamp": "1738713600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "52",
+                            "extracted_value": 52
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 6, 2025",
+                    "timestamp": "1738800000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "66",
+                            "extracted_value": 66
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 7, 2025",
+                    "timestamp": "1738886400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "70",
+                            "extracted_value": 70
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 8, 2025",
+                    "timestamp": "1738972800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "65",
+                            "extracted_value": 65
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 9, 2025",
+                    "timestamp": "1739059200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "65",
+                            "extracted_value": 65
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 10, 2025",
+                    "timestamp": "1739145600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "63",
+                            "extracted_value": 63
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 11, 2025",
+                    "timestamp": "1739232000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "60",
+                            "extracted_value": 60
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 12, 2025",
+                    "timestamp": "1739318400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "58",
+                            "extracted_value": 58
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 13, 2025",
+                    "timestamp": "1739404800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "84",
+                            "extracted_value": 84
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 14, 2025",
+                    "timestamp": "1739491200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "67",
+                            "extracted_value": 67
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 15, 2025",
+                    "timestamp": "1739577600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "78",
+                            "extracted_value": 78
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 16, 2025",
+                    "timestamp": "1739664000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "75",
+                            "extracted_value": 75
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 17, 2025",
+                    "timestamp": "1739750400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "56",
+                            "extracted_value": 56
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 18, 2025",
+                    "timestamp": "1739836800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "69",
+                            "extracted_value": 69
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 19, 2025",
+                    "timestamp": "1739923200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "71",
+                            "extracted_value": 71
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 20, 2025",
+                    "timestamp": "1740009600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "74",
+                            "extracted_value": 74
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 21, 2025",
+                    "timestamp": "1740096000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "68",
+                            "extracted_value": 68
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 22, 2025",
+                    "timestamp": "1740182400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "78",
+                            "extracted_value": 78
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 23, 2025",
+                    "timestamp": "1740268800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "70",
+                            "extracted_value": 70
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 24, 2025",
+                    "timestamp": "1740355200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "63",
+                            "extracted_value": 63
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 25, 2025",
+                    "timestamp": "1740441600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "61",
+                            "extracted_value": 61
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 26, 2025",
+                    "timestamp": "1740528000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "58",
+                            "extracted_value": 58
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 27, 2025",
+                    "timestamp": "1740614400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "55",
+                            "extracted_value": 55
+                        }
+                    ]
+                },
+                {
+                    "date": "Feb 28, 2025",
+                    "timestamp": "1740700800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "65",
+                            "extracted_value": 65
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 1, 2025",
+                    "timestamp": "1740787200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "85",
+                            "extracted_value": 85
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 2, 2025",
+                    "timestamp": "1740873600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "60",
+                            "extracted_value": 60
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 3, 2025",
+                    "timestamp": "1740960000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "63",
+                            "extracted_value": 63
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 4, 2025",
+                    "timestamp": "1741046400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "55",
+                            "extracted_value": 55
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 5, 2025",
+                    "timestamp": "1741132800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "49",
+                            "extracted_value": 49
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 6, 2025",
+                    "timestamp": "1741219200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "64",
+                            "extracted_value": 64
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 7, 2025",
+                    "timestamp": "1741305600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "52",
+                            "extracted_value": 52
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 8, 2025",
+                    "timestamp": "1741392000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "62",
+                            "extracted_value": 62
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 9, 2025",
+                    "timestamp": "1741478400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "71",
+                            "extracted_value": 71
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 10, 2025",
+                    "timestamp": "1741564800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "59",
+                            "extracted_value": 59
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 11, 2025",
+                    "timestamp": "1741651200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "56",
+                            "extracted_value": 56
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 12, 2025",
+                    "timestamp": "1741737600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "54",
+                            "extracted_value": 54
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 13, 2025",
+                    "timestamp": "1741824000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "62",
+                            "extracted_value": 62
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 14, 2025",
+                    "timestamp": "1741910400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "77",
+                            "extracted_value": 77
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 15, 2025",
+                    "timestamp": "1741996800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "79",
+                            "extracted_value": 79
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 16, 2025",
+                    "timestamp": "1742083200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "62",
+                            "extracted_value": 62
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 17, 2025",
+                    "timestamp": "1742169600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "58",
+                            "extracted_value": 58
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 18, 2025",
+                    "timestamp": "1742256000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "50",
+                            "extracted_value": 50
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 19, 2025",
+                    "timestamp": "1742342400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "63",
+                            "extracted_value": 63
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 20, 2025",
+                    "timestamp": "1742428800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "55",
+                            "extracted_value": 55
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 21, 2025",
+                    "timestamp": "1742515200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "52",
+                            "extracted_value": 52
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 22, 2025",
+                    "timestamp": "1742601600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "66",
+                            "extracted_value": 66
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 23, 2025",
+                    "timestamp": "1742688000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "67",
+                            "extracted_value": 67
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 24, 2025",
+                    "timestamp": "1742774400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "49",
+                            "extracted_value": 49
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 25, 2025",
+                    "timestamp": "1742860800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "60",
+                            "extracted_value": 60
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 26, 2025",
+                    "timestamp": "1742947200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "64",
+                            "extracted_value": 64
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 27, 2025",
+                    "timestamp": "1743033600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "53",
+                            "extracted_value": 53
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 28, 2025",
+                    "timestamp": "1743120000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "70",
+                            "extracted_value": 70
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 29, 2025",
+                    "timestamp": "1743206400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "58",
+                            "extracted_value": 58
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 30, 2025",
+                    "timestamp": "1743292800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "60",
+                            "extracted_value": 60
+                        }
+                    ]
+                },
+                {
+                    "date": "Mar 31, 2025",
+                    "timestamp": "1743379200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "62",
+                            "extracted_value": 62
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 1, 2025",
+                    "timestamp": "1743465600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "51",
+                            "extracted_value": 51
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 2, 2025",
+                    "timestamp": "1743552000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "41",
+                            "extracted_value": 41
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 3, 2025",
+                    "timestamp": "1743638400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "62",
+                            "extracted_value": 62
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 4, 2025",
+                    "timestamp": "1743724800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "64",
+                            "extracted_value": 64
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 5, 2025",
+                    "timestamp": "1743811200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "58",
+                            "extracted_value": 58
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 6, 2025",
+                    "timestamp": "1743897600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "63",
+                            "extracted_value": 63
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 7, 2025",
+                    "timestamp": "1743984000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "51",
+                            "extracted_value": 51
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 8, 2025",
+                    "timestamp": "1744070400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "64",
+                            "extracted_value": 64
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 9, 2025",
+                    "timestamp": "1744156800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "60",
+                            "extracted_value": 60
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 10, 2025",
+                    "timestamp": "1744243200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "61",
+                            "extracted_value": 61
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 11, 2025",
+                    "timestamp": "1744329600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "67",
+                            "extracted_value": 67
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 12, 2025",
+                    "timestamp": "1744416000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "56",
+                            "extracted_value": 56
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 13, 2025",
+                    "timestamp": "1744502400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "64",
+                            "extracted_value": 64
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 14, 2025",
+                    "timestamp": "1744588800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "54",
+                            "extracted_value": 54
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 15, 2025",
+                    "timestamp": "1744675200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "55",
+                            "extracted_value": 55
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 16, 2025",
+                    "timestamp": "1744761600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "61",
+                            "extracted_value": 61
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 17, 2025",
+                    "timestamp": "1744848000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "51",
+                            "extracted_value": 51
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 18, 2025",
+                    "timestamp": "1744934400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "62",
+                            "extracted_value": 62
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 19, 2025",
+                    "timestamp": "1745020800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "68",
+                            "extracted_value": 68
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 20, 2025",
+                    "timestamp": "1745107200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "53",
+                            "extracted_value": 53
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 21, 2025",
+                    "timestamp": "1745193600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "56",
+                            "extracted_value": 56
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 22, 2025",
+                    "timestamp": "1745280000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "53",
+                            "extracted_value": 53
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 23, 2025",
+                    "timestamp": "1745366400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "57",
+                            "extracted_value": 57
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 24, 2025",
+                    "timestamp": "1745452800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "37",
+                            "extracted_value": 37
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 25, 2025",
+                    "timestamp": "1745539200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "46",
+                            "extracted_value": 46
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 26, 2025",
+                    "timestamp": "1745625600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "64",
+                            "extracted_value": 64
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 27, 2025",
+                    "timestamp": "1745712000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "61",
+                            "extracted_value": 61
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 28, 2025",
+                    "timestamp": "1745798400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "58",
+                            "extracted_value": 58
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 29, 2025",
+                    "timestamp": "1745884800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "53",
+                            "extracted_value": 53
+                        }
+                    ]
+                },
+                {
+                    "date": "Apr 30, 2025",
+                    "timestamp": "1745971200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "63",
+                            "extracted_value": 63
+                        }
+                    ]
+                },
+                {
+                    "date": "May 1, 2025",
+                    "timestamp": "1746057600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "59",
+                            "extracted_value": 59
+                        }
+                    ]
+                },
+                {
+                    "date": "May 2, 2025",
+                    "timestamp": "1746144000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "68",
+                            "extracted_value": 68
+                        }
+                    ]
+                },
+                {
+                    "date": "May 3, 2025",
+                    "timestamp": "1746230400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "65",
+                            "extracted_value": 65
+                        }
+                    ]
+                },
+                {
+                    "date": "May 4, 2025",
+                    "timestamp": "1746316800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "71",
+                            "extracted_value": 71
+                        }
+                    ]
+                },
+                {
+                    "date": "May 5, 2025",
+                    "timestamp": "1746403200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "62",
+                            "extracted_value": 62
+                        }
+                    ]
+                },
+                {
+                    "date": "May 6, 2025",
+                    "timestamp": "1746489600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "60",
+                            "extracted_value": 60
+                        }
+                    ]
+                },
+                {
+                    "date": "May 7, 2025",
+                    "timestamp": "1746576000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "65",
+                            "extracted_value": 65
+                        }
+                    ]
+                },
+                {
+                    "date": "May 8, 2025",
+                    "timestamp": "1746662400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "62",
+                            "extracted_value": 62
+                        }
+                    ]
+                },
+                {
+                    "date": "May 9, 2025",
+                    "timestamp": "1746748800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "59",
+                            "extracted_value": 59
+                        }
+                    ]
+                },
+                {
+                    "date": "May 10, 2025",
+                    "timestamp": "1746835200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "71",
+                            "extracted_value": 71
+                        }
+                    ]
+                },
+                {
+                    "date": "May 11, 2025",
+                    "timestamp": "1746921600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "90",
+                            "extracted_value": 90
+                        }
+                    ]
+                },
+                {
+                    "date": "May 12, 2025",
+                    "timestamp": "1747008000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "64",
+                            "extracted_value": 64
+                        }
+                    ]
+                },
+                {
+                    "date": "May 13, 2025",
+                    "timestamp": "1747094400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "61",
+                            "extracted_value": 61
+                        }
+                    ]
+                },
+                {
+                    "date": "May 14, 2025",
+                    "timestamp": "1747180800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "60",
+                            "extracted_value": 60
+                        }
+                    ]
+                },
+                {
+                    "date": "May 15, 2025",
+                    "timestamp": "1747267200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "63",
+                            "extracted_value": 63
+                        }
+                    ]
+                },
+                {
+                    "date": "May 16, 2025",
+                    "timestamp": "1747353600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "57",
+                            "extracted_value": 57
+                        }
+                    ]
+                },
+                {
+                    "date": "May 17, 2025",
+                    "timestamp": "1747440000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "63",
+                            "extracted_value": 63
+                        }
+                    ]
+                },
+                {
+                    "date": "May 18, 2025",
+                    "timestamp": "1747526400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "58",
+                            "extracted_value": 58
+                        }
+                    ]
+                },
+                {
+                    "date": "May 19, 2025",
+                    "timestamp": "1747612800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "54",
+                            "extracted_value": 54
+                        }
+                    ]
+                },
+                {
+                    "date": "May 20, 2025",
+                    "timestamp": "1747699200",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "51",
+                            "extracted_value": 51
+                        }
+                    ]
+                },
+                {
+                    "date": "May 21, 2025",
+                    "timestamp": "1747785600",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "53",
+                            "extracted_value": 53
+                        }
+                    ]
+                },
+                {
+                    "date": "May 22, 2025",
+                    "timestamp": "1747872000",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "57",
+                            "extracted_value": 57
+                        }
+                    ]
+                },
+                {
+                    "date": "May 23, 2025",
+                    "timestamp": "1747958400",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "57",
+                            "extracted_value": 57
+                        }
+                    ]
+                },
+                {
+                    "date": "May 24, 2025",
+                    "timestamp": "1748044800",
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "64",
+                            "extracted_value": 64
+                        }
+                    ]
+                },
+                {
+                    "date": "May 25, 2025",
+                    "timestamp": "1748131200",
+                    "partial_data": true,
+                    "values": [
+                        {
+                            "query": "iphone 16 pro max",
+                            "value": "70",
+                            "extracted_value": 70
+                        }
+                    ]
+                }
+            ]
+        },
+        "sentiment": {
+            "summary": {
+                "clearly_positive": 27,
+                "clearly_negative": 35,
+                "neutral": 37,
+                "mixed": 1
+            },
+            "chartData": [
+                {
+                    "label": "clearly_positive",
+                    "value": 27
+                },
+                {
+                    "label": "clearly_negative",
+                    "value": 35
+                },
+                {
+                    "label": "neutral",
+                    "value": 37
+                },
+                {
+                    "label": "mixed",
+                    "value": 1
+                }
+            ],
+            "comments": [
+                {
+                    "comment": "5:21 Correction: there is support for reverse WIRED charging, not reverse wireless charging.\nOur Apple iOS 18.2 review is up now: https://youtu.be/tKvzvEmQkjM",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "2/10",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 0.800000011920929,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Not sure what I am doing wrong with my new Iphone Max pro but have to charge it every night, still.",
+                    "sentiment_score": -0.4000000059604645,
+                    "sentiment_magnitude": 0.4000000059604645,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "yes.. after using 13promax for almost 3 years.. today i buy 16promax.. but only for video recording😂",
+                    "sentiment_score": -0.20000000298023224,
+                    "sentiment_magnitude": 0.20000000298023224,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Same style of reviewing with same location of reviewing camera features. Content lacks creativity. 😴",
+                    "sentiment_score": -0.20000000298023224,
+                    "sentiment_magnitude": 1,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Bulgariaaaaa Sofiaaaa, lets gooo 😁",
+                    "sentiment_score": 0.699999988079071,
+                    "sentiment_magnitude": 0.699999988079071,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "If i update my iPhone 11 pro to  ios 18.2 will i have the apple intelligence feature?\nPls reply me.",
+                    "sentiment_score": -0.20000000298023224,
+                    "sentiment_magnitude": 0.4000000059604645,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "im not convinced. will wait for the 17 pro max",
+                    "sentiment_score": -0.20000000298023224,
+                    "sentiment_magnitude": 1.2000000476837158,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Same phone",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Horrible phone always freezing",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 0.800000011920929,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Which game is that on the phone playing",
+                    "sentiment_score": 0.10000000149011612,
+                    "sentiment_magnitude": 0.10000000149011612,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "\"I just placed an order for the iPhone 16 Pro Max (256GB) through the Ditchit app. The app is really easy to use and I found a great deal on the phone. Can’t wait for it to arrive! So far, the experience has been smooth and hassle-free. Definitely worth checking out! 📱🔥",
+                    "sentiment_score": 0.6000000238418579,
+                    "sentiment_magnitude": 4.300000190734863,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "you are from Russia?",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Watching this on my iphone 16pro max",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Can’t turn silent on or off with side button 🤣",
+                    "sentiment_score": -0.8999999761581421,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Guys quick one, should I trade in my 14 pro max for this??",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Has anyone used the Lidar feature?",
+                    "sentiment_score": -0.10000000149011612,
+                    "sentiment_magnitude": 0.10000000149011612,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Still using my Xs Max and it’s going strong. What’s the point of upgrading now?",
+                    "sentiment_score": 0.10000000149011612,
+                    "sentiment_magnitude": 1.2999999523162842,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "I'm looking forward to the new IPhone 16 promax  I have the 15 promax and hate it!",
+                    "sentiment_score": -0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "This shit iPhone price should be 100 to 150 us dollar",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 0.800000011920929,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Shop the Ostand Spin on Amazon 👉 https://amzn.to/41kckRH (Sponsored by Torras)\n📑Blog Post: https://6monthslater.net/2025/05/iphone-16-pro-max-review/\n🛒 Product Links: \nhttps://6monthslater.net/2025/05/iphone-16-pro-max-review/#featured-products\n\n\n👉 View all of our recommended products: https://6monthslater.net/shop \n\n\n❤Support Us: https://6monthslater.net/support-us/ \nSee your name in our video credits by supporting the channel\n\n🔗 Related Video links: \n👉Smartphone videos: https://www.youtube.com/playlist?list=PL2XWjlJjGp3uYrPBrB-Z88k8rW4LcwhVY\n👉Apple videos:https://www.youtube.com/playlist?list=PL2XWjlJjGp3uMKOssWN3NiKQ22LNaOFE4\n\n  \n👋 Follow Josh: \n👉 Bluesky: https://bsky.app/profile/joshteder.bsky.social\n👉 Threads: https://www.threads.net/@joshteder\n👉 RSS Feeds: https://6monthslater.net/feeds/ \n👉 Instagram: https://www.instagram.com/joshteder/\n👉 Reddit: https://www.reddit.com/user/joshteder/ \n👉 LinkedIn: https://www.linkedin.com/in/joshteder/",
+                    "sentiment_score": 0.10000000149011612,
+                    "sentiment_magnitude": 0.6000000238418579,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "I feel like switching to android to get a breath of fresh air, but having a family plan with Apple one and my family including myself fully invested so much into apples ecosystem, it leaves me stuck.",
+                    "sentiment_score": 0.10000000149011612,
+                    "sentiment_magnitude": 0.10000000149011612,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "iOS is the worse thing about an iPhone and apple knows it.",
+                    "sentiment_score": -0.8999999761581421,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "20:25 iPhone 16e has wireless charging, just not MagSafe charging. big difference.",
+                    "sentiment_score": -0.10000000149011612,
+                    "sentiment_magnitude": 0.30000001192092896,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "iPhone has nothing compared to Samsung S25 Ultra",
+                    "sentiment_score": -0.6000000238418579,
+                    "sentiment_magnitude": 0.6000000238418579,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "6:36 - WHAT THE HECK ARE YOU ON ABOUT?! 😂\nThat's the exact OPPOSITE of how it is for the majority of people! And considering how much they've emphasized Apple Intelligence in nearly ALL of their products,  even though it's been reported a lot that is been so under-baked and the like,  it's about as much of a load of BS the likes a apple fanboy would end up spouting here!",
+                    "sentiment_score": -0.4000000059604645,
+                    "sentiment_magnitude": 1.5,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "You would literally recommend the iPhone 16 to your viewers after all the bullshit Apple has put these people through and the lawsuit that is happening because of the rip off and lies that is the iphone 16?  This is a content creator that probably gets invited to all the shows.  Any contact creator that would recommend the iPhone 16, is one that you should unsubscribe to.",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 1.600000023841858,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Pixel 9 pro xl or s25 u ?",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "17:12 yes, sideloading I’ve been doing it for years it let’s me have no ads on Spotify, YouTube, Crunchyroll, and let me download hacked games like merge dragons I have an equivalent to $17k in gems, auto swiping on TikTok download any TikTok or video even if the owner disabled saving, I can go on and on, only thing missing is better Siri which we aren’t getting unfortunately:(",
+                    "sentiment_score": -0.4000000059604645,
+                    "sentiment_magnitude": 0.4000000059604645,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "1:32 clarifying when you bought the Model 3 was a great move, I was ready to judge you hard 😂",
+                    "sentiment_score": 0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "Awwe!!!... \"My iPhone is too heavy!!... Im very upset\"!!!....!!!... \"This is the tan color i expected...!!!\".... Really bro..???.. geez louise!!... What would this snowflake do if he had a REAL  problem..... And why was it only other dudes sending him pictures..!!.. no shorties???.. wow.. and he dead serious!!!",
+                    "sentiment_score": -0.20000000298023224,
+                    "sentiment_magnitude": 5.199999809265137,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Subjective but the fact that you find the pixel nine Pro, a better camera is astounding to me to each throne because that's sincerely what it comes down to because they're not gonna be a largely distorted picture coming out of any phone anymore than anyone is currently using",
+                    "sentiment_score": -0.4000000059604645,
+                    "sentiment_magnitude": 0.4000000059604645,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "switching 4 years was the best thing I ever did.",
+                    "sentiment_score": 0.4000000059604645,
+                    "sentiment_magnitude": 0.4000000059604645,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "I am confused between samsung s25 ultra and iphone 16 pro max \nWhich one do you advise me ?",
+                    "sentiment_score": -0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "No iphone has ever been worth it lol",
+                    "sentiment_score": 0.4000000059604645,
+                    "sentiment_magnitude": 0.4000000059604645,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "I am in the confusion to choose whether to go with 16 pro or pro max",
+                    "sentiment_score": -0.4000000059604645,
+                    "sentiment_magnitude": 0.4000000059604645,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "\"If my major highlight with this phone is that it's an iPhone, that should probably tell you something about how revolutionary this device really feels after using one for 6 months\"\n\nI think it says more about the Apple bubble Americans live in",
+                    "sentiment_score": -0.30000001192092896,
+                    "sentiment_magnitude": 0.6000000238418579,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Going from 15 promax to 16 pro Max, it feels like an upgrade",
+                    "sentiment_score": 0.699999988079071,
+                    "sentiment_magnitude": 0.699999988079071,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "this phone is still to small for my hands",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 0.800000011920929,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "6 months using 16 pro max still 97% dark mode, 20-80 rule, low brightness",
+                    "sentiment_score": -0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Always nice work on your videos. Very few Apple Intelligence features worth talking about.",
+                    "sentiment_score": 0.10000000149011612,
+                    "sentiment_magnitude": 1.7000000476837158,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "If u plan to not use a case then natural titanium would be the best because the band would strip color",
+                    "sentiment_score": 0.10000000149011612,
+                    "sentiment_magnitude": 0.10000000149011612,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "I upgraded to this from the 14 Pro Max, I love the natural titanium color, I made a good pic on that one, but Apple Intelligence is not very impressive to me, Samsung  Galaxy blows everything else away, and I wish it was 100-200 megapixel cameras by now (it should be 🙄) but overall it’s pretty good",
+                    "sentiment_score": 0.6000000238418579,
+                    "sentiment_magnitude": 0.6000000238418579,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "I love the camera control",
+                    "sentiment_score": 0.8999999761581421,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "I hate that I have AirPods/macbook/ipad pro because I realllllllllly wanted the s25 ultra. Ugh Apple got me. This thing feels no different than my 13+",
+                    "sentiment_score": -0.6000000238418579,
+                    "sentiment_magnitude": 1.899999976158142,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Upgraded from my iphone 14 pro max, no difference between the phones save your money and dont fall for the scam wait until a new model comes out.",
+                    "sentiment_score": -0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Just got mine 3 days ago I love it so far",
+                    "sentiment_score": 0.8999999761581421,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "It’s mediocre at best!!!",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 0.800000011920929,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "My battery not as good as i was hoping",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 0.800000011920929,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "All the new features re photogra on the Pro Plus are actually already used on Samsung through Google apps such as Google Gemini and Google photos",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "I’m in need to upgrade, currently have iPhone 11 basic\n\nLooking for camera quality and overall better performance in connection, battery, and screen \n\nCurrently interested in getting the iPhone 16 Pro max (with $1k trade in offer) \n\nOr iPhone 15 plus (for the nice pink) but no offers",
+                    "sentiment_score": -0.10000000149011612,
+                    "sentiment_magnitude": 1,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "6h screen time? Damn dude",
+                    "sentiment_score": -0.10000000149011612,
+                    "sentiment_magnitude": 0.30000001192092896,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "I had an absolutely horrendous time setting the phone up from a 12 pro max. I’m still struggling to log back into everything 😭😭😭😭",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 1.7000000476837158,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Tell me you are gay without telling me you are gay",
+                    "sentiment_score": -0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Great video! I have a new 16 Pro Max arriving tomorrow and found your video very helpful. \n\nYou mentioned getting a fast battery charger. Do you have one specific charger model you can recommend, please?",
+                    "sentiment_score": 0.30000001192092896,
+                    "sentiment_magnitude": 2.200000047683716,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "I just used my upgrade and ordered a brand new Iphone 16 Pro Max 1TB in black Titanium. I am coming from the Samsung Fold 5, which is a fantastic phone, but it is starting to have performance issues, which is typical of Android phones. It would appear that the iPhones's performance tends last longer. Most of my friends have 3-5 year old iPhones that still run well.I have yet to receive my device as it is coming via UPS and should be here Friday. \n\nI have never owned a Apple product before. I have always been an Android and Windows user. This year I decided to change it up everything and move EVERYTHING over to Apple and it's renowned ecosystem. I ordered the iPhone 16 Pro Max 1TB in Titanium Black, a completely maxed out 2025 Macbook Pro 16 M4 Max with 2TB SSD, 128GB ram and 16 inch XNA retina display with anit glare tech. Its a beast. Nothing is comparable in the market. I also just ordered the iwatch ultra 2 and the iPods pro 2. So, I was not kidding when I starting fresh. Im starting some business ventures this year and I want the tech horsepower to get everything done.\n\nHowever, after reading the reviews of thr Samsung 25 Ultra and how amazing it is, im starting to reconsider my ealier choices. Now im tempted to retun everything and get an Samsung Ultra 25 and stay with my Samsung ultra watch, my Samsung pro 3 ear pods and keep my beast of a windows PC with a rtx 5080, 128 GB or ram and an i9. Thoughts anyone?",
+                    "sentiment_score": 0.10000000149011612,
+                    "sentiment_magnitude": 4.599999904632568,
+                    "sentiment": "mixed"
+                },
+                {
+                    "comment": "I’m still running my Xs Max and don’t have any plans to change it, what’s the point?",
+                    "sentiment_score": -0.699999988079071,
+                    "sentiment_magnitude": 0.699999988079071,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "I just upgraded from the 13 PM sierra blue to the 16 Pro black titanium and I couldn’t be happier!! Love the Dynamic Island and as you said, the camera control as a quick launch for the camera but that’s about it for my use of camera control lol. I also love the new photographic styles. I enjoy the apple intelligence features as well as the new flashlight and new control panel. I also quite enjoy the new size which is why I went Pro and not PM this year. Plus I got a way better deal lol 😂 Overall GREAT phone. I’m more than happy with it. And the battery on the pro is miles better than my 13 PM which is great. But obviously I had some battery degradation ATP.",
+                    "sentiment_score": 0.6000000238418579,
+                    "sentiment_magnitude": 7.199999809265137,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "I have had a Poco F5 for over one and a half year. My cycle count is 681. I cannot understand how Apple batteries have a cycle count of 100+ in a month. Sheesh.",
+                    "sentiment_score": -0.10000000149011612,
+                    "sentiment_magnitude": 1.2999999523162842,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Bro Apple’s Products is getting better and better",
+                    "sentiment_score": 0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "Ssdsize",
+                    "sentiment_score": 0.30000001192092896,
+                    "sentiment_magnitude": 0.30000001192092896,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "I have a gold iphone 16 pro max",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Bro my 12 pro max is the same size it’s only2 inches which is 6.7 inches and iPhone 16 pro max is 6.9 inches only difference is the notch is smaller",
+                    "sentiment_score": -0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Is massive",
+                    "sentiment_score": 0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "Im getting it for the big screen and also for Pinterest and i find the features so cool",
+                    "sentiment_score": 0.8999999761581421,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "Watching this on my day old IPhone 16 pro max. Initially I thought it would be too big coming from a 14 pro, but I reckon because of the size it’s actually easier to use. Feels lighter than my 14 pro and absolutely love the big screen. Also went with the black titanium as I think it looks the best.",
+                    "sentiment_score": 0.699999988079071,
+                    "sentiment_magnitude": 3,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "Bro why are so many people saying they coming from an iPhone 11 because I am too I thought ahh yes I use my phone too much an overly addicted to it so I need to upgrade to a snappier version and I can now actually emulate so yea. Yippee",
+                    "sentiment_score": 0.10000000149011612,
+                    "sentiment_magnitude": 0.30000001192092896,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Lmao I’ve literally had every iPhone except the 15 and and this one by far is the best one I love it and I’ve had a plus ever since apple started doing it With the iPhone 6 and the size difference on the 16 pro max is a lot bigger usually I can’t really tell the difference in size but the 16 apple definitely made it a lot bigger !! I can only imagine what the 17 finna look like",
+                    "sentiment_score": 0.4000000059604645,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "If Steve Jobs still alive, maybe today your selfphone Thinner & Smaller then your Credit card\n\nWith unlimited data storage",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0.699999988079071,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "That's why I want to get one .",
+                    "sentiment_score": 0.5,
+                    "sentiment_magnitude": 0.5,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "Manifesting hehe",
+                    "sentiment_score": 0.699999988079071,
+                    "sentiment_magnitude": 0.699999988079071,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "I’m getting my iPhone 16 pro max tomorrow I can’t wait!!",
+                    "sentiment_score": 0.8999999761581421,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "Y’all buying this are funny. 14 pro max is exactly the same 😂😂😂",
+                    "sentiment_score": 0.4000000059604645,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "Useless upgrade every damn year😂 I’m still on the 11 pro and before that, I’ve had the 6s plus but nothing has been improved after the X/11 series. Even that Dynamic Island I don’t find it innovative😅 it’s just a typical iPhone we see every year with minor upgrades that doesn’t even value your money.",
+                    "sentiment_score": -0.699999988079071,
+                    "sentiment_magnitude": 1.5,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Sounds good! Cant wait till my 16 pro max gets here.",
+                    "sentiment_score": 0.5,
+                    "sentiment_magnitude": 1,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "🔥👍🏻",
+                    "sentiment_score": 0.30000001192092896,
+                    "sentiment_magnitude": 0.30000001192092896,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "My Xs Max has lasted from the UK release day until now, not sure if it’s worth the cost. Any suggestions?",
+                    "sentiment_score": -0.10000000149011612,
+                    "sentiment_magnitude": 0.30000001192092896,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "I upgraded from iphone11PM to 16PM HUGE DIFFERENCE",
+                    "sentiment_score": 0.30000001192092896,
+                    "sentiment_magnitude": 0.30000001192092896,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "Me watching on my iPhone",
+                    "sentiment_score": 0.10000000149011612,
+                    "sentiment_magnitude": 0.10000000149011612,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "It looks ugly",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 0.800000011920929,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "A Strange year for the iPhone...",
+                    "sentiment_score": -0.20000000298023224,
+                    "sentiment_magnitude": 0.20000000298023224,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "My 16prm is overheating a lot. Is it normal or my device has issues on it?",
+                    "sentiment_score": -0.5,
+                    "sentiment_magnitude": 1,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "I just got my 16 PM and i like it the camera is awesome especially the 48 MP wide is great. I really love the fact it can run some console games like the resident evil series and death stranding i have nothing bad to say about it.",
+                    "sentiment_score": 0.8999999761581421,
+                    "sentiment_magnitude": 1.899999976158142,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "fair review where you are trying to give apple a good shot, yet to bad that the ai functionality is lacking at the moment.",
+                    "sentiment_score": -0.699999988079071,
+                    "sentiment_magnitude": 0.699999988079071,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Very nice and precise review. Thanks, exactly what I needed to know.",
+                    "sentiment_score": 0.8999999761581421,
+                    "sentiment_magnitude": 1.899999976158142,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "That aged like milk. Lmao still no Apple Intelligence",
+                    "sentiment_score": -0.4000000059604645,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Reviewing this since i switched from my galaxy phone just to see how Apple works, hopefully it isnt complicated as its a completely different software.",
+                    "sentiment_score": -0.20000000298023224,
+                    "sentiment_magnitude": 0.20000000298023224,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "2025 and we still don’t have Apple Intelligence. Oh and now Siri put off until 2027.",
+                    "sentiment_score": -0.5,
+                    "sentiment_magnitude": 1.100000023841858,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "This is she shittiest review of anything i have ever seen, I'm a samsung guy but god damn this guy is fucking annoying and clueless",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 0.800000011920929,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "iphone 16 128gb Ok also",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Who even uses pinch to zoom anymore? You use your thumb on the 1x wheel",
+                    "sentiment_score": -0.4000000059604645,
+                    "sentiment_magnitude": 0.8999999761581421,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Dude where is the new MacBook Air video?",
+                    "sentiment_score": -0.20000000298023224,
+                    "sentiment_magnitude": 0.20000000298023224,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Camera control is one of the most dumb feature I have ever seen",
+                    "sentiment_score": -0.800000011920929,
+                    "sentiment_magnitude": 0.800000011920929,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "Hey guys, I'm using a 12 Pro Max. Should I upgrade to the 16 Pro/Pro Max or should I just get the 15 Pro/Pro Max and save the difference for accessories and other stuff?",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "Ain't desert titanium just a fancy name for rose gold?",
+                    "sentiment_score": 0,
+                    "sentiment_magnitude": 0,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "2025 is critical for Apple to Bring Exciting iPhone -Atleast 1 New feature that's Mind-Blowing 🤞🏻",
+                    "sentiment_score": 0.20000000298023224,
+                    "sentiment_magnitude": 0.20000000298023224,
+                    "sentiment": "neutral"
+                },
+                {
+                    "comment": "so when tim cook said, apple intelligence built from the ground up for apple intelligence & break through a.i.  !, so when he said @ the end \"brake through intelligence\" does that mean copy what google & samsung has already done then wait a few years later before apple brijtsvit to you our consumers because here @ apple we love everybodies money, we do not discriminate unless its the latest & greatest tech & a.i. well then we do discriminate until google & samsung brings it out first for a few years until we can see nobody is against it, then we will slowly roll it out when its safe for us to bring to you are overlooked customers, is that what apple intelligence is, i want a refund ! tim cook , u ma fucca, u !",
+                    "sentiment_score": -0.30000001192092896,
+                    "sentiment_magnitude": 1.7000000476837158,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "the smartphone market is saturated to a higher degree there is no innovation no more.",
+                    "sentiment_score": -0.699999988079071,
+                    "sentiment_magnitude": 0.699999988079071,
+                    "sentiment": "clearly_negative"
+                },
+                {
+                    "comment": "I got the new iPhone. It’s pretty nice. Size is very good. 6.9 (nice) is perfect.",
+                    "sentiment_score": 0.699999988079071,
+                    "sentiment_magnitude": 2.799999952316284,
+                    "sentiment": "clearly_positive"
+                },
+                {
+                    "comment": "honestly the camera control button needs way more improvement. Very counterproductive now. I still prefer the old Ring/Silent Switch over the action button which everybody only binds to flashlight??",
+                    "sentiment_score": -0.20000000298023224,
+                    "sentiment_magnitude": 0.699999988079071,
+                    "sentiment": "neutral"
+                }
+            ]
+        }
+    },
+    "recommendation": "1. Analysis Results-\nYouTube comments show a mixed sentiment, with slightly more negative comments than positive. Google Trends indicate a decreasing interest in the iPhone 16 Pro Max. Inventory turnover is significantly higher than the target, suggesting efficient inventory management.\n\n2. Recommendation-\nReduce\n\n3. Justification-\n-High inventory turnover indicates that the current inventory is selling quickly.\n-The turnover gap is positive, meaning the inventory is turning over faster than desired.\n-Decreasing search interest suggests potentially lower future demand.\n\n4. Estimated Units-\nThe inventory turnover is significantly higher than the target, indicating potential overstocking. We can estimate the needed inventory based on desired turnover.\nFormula: Estimated Inventory = (Total COGS / Target Turnover)\nEstimated Inventory = (472347.34 / 1000) = 472.35.\nCurrent Average Inventory: 89.5\nWe would reduce the inventory by the difference between the average inventory and the estimated inventory.\nReduction = 89.5 - 472.35 = -382.85, which is not possible.\nTherefore, we will reduce inventory based on current inventory value to adjust to the target turnover.\nReduction = 89.5 * (1 - (1000/5277.62)) = 72.62, approximately 17 units.\n\n5. Important Considerations-\n-Monitor Google Trends and social media sentiment closely for any shifts in demand.\n-Factor in any upcoming product launches or promotional activities that could impact sales.\n-Review and adjust the inventory strategy regularly to avoid overstocking or stockouts.\n\nDisclaimer-\nThis is a preliminary recommendation based on provided data.\n"
+}
