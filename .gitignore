@@ -1,12 +1,6 @@
 /.vscode
 /README.md
 
-# Environment variables (contains API URLs and secrets)
-**/.env.local
-**/.env
-.env.local
-.env
-
 # Dependencies
 **/node_modules
 node_modules/
