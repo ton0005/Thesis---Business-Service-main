@@ -3,6 +3,15 @@ import { ProductInventoryData, ProductUploadResponse, ParsedFileData } from './t
 // 从环境变量获取产品API的基础URL
 const PRODUCTS_API_URL = process.env.NEXT_PUBLIC_PRODUCTS_API_URL;
 
+function buildProductsEndpoint(baseUrl: string, productName: string): string {
+  const trimmedBase = baseUrl.replace(/\/+$/, '');
+  const baseWithProducts = trimmedBase.endsWith('/products')
+    ? trimmedBase
+    : `${trimmedBase}/products`;
+
+  return `${baseWithProducts}/${encodeURIComponent(productName)}`;
+}
+
 /**
  * 产品数据上传服务
  */
@@ -30,8 +39,12 @@ export const productDataService = {
         formProductName
       });
       
-      // 使用文件中的产品名称，而不是表单中的
-      const productName = originalProductName;
+      // Prefer form value, then fallback to product key from file.
+      const resolvedProductName = (formProductName || '').trim() || (originalProductName || '').trim();
+
+      if (!resolvedProductName) {
+        throw new Error('Product name is required to upload inventory data');
+      }
       
       // 检查API URL是否已定义
       if (!PRODUCTS_API_URL) {
@@ -47,7 +60,7 @@ export const productDataService = {
         "Ending Inventory": fileData.endingInventory || 0,
         "Sales": fileData.sales || 0,
         "Target Turnover": fileData.targetTurnover || 1000,
-        "id": fileData.id || `INV${fileData.period || "2025-01"}-${productName.toLowerCase().replace(/\s+/g, '-')}`,
+        "id": fileData.id || `INV${fileData.period || "2025-01"}-${resolvedProductName.toLowerCase().replace(/\s+/g, '-')}`,
         "period": fileData.period || "2025-01"
       };
       
@@ -59,8 +72,8 @@ export const productDataService = {
       console.log('[ProductService] Prepared request body:', JSON.stringify(requestBody, null, 2));
       
       // 调用API上传产品数据
-      const normalizedProductName = productName.toLowerCase().replace(/\s+/g, '-');
-      const apiUrl = `${PRODUCTS_API_URL}/${normalizedProductName}`;
+      const normalizedProductName = resolvedProductName.toLowerCase().replace(/\s+/g, '-');
+      const apiUrl = buildProductsEndpoint(PRODUCTS_API_URL, normalizedProductName);
       
       console.log('[ProductService] Making API request to:', apiUrl);
       
