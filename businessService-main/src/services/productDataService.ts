@@ -1,4 +1,4 @@
-import { ProductInventoryData, ProductUploadResponse, ParsedFileData } from './types';
+import { ProductUploadResponse, ParsedFileData } from './types';
 
 // 从环境变量获取产品API的基础URL
 const PRODUCTS_API_URL = process.env.NEXT_PUBLIC_PRODUCTS_API_URL;
@@ -27,20 +27,9 @@ export const productDataService = {
         fileName: file.name, 
         formProductName
       });
-      
-      // 解析文件内容
-      const parseResult = await this.parseFile(file);
-      const fileData = parseResult.data;
-      const originalProductName = parseResult.originalProductName;
-      
-      console.log('[ProductService] File parsed successfully', { 
-        fileData,
-        originalProductName, 
-        formProductName
-      });
-      
-      // Prefer form value, then fallback to product key from file.
-      const resolvedProductName = (formProductName || '').trim() || (originalProductName || '').trim();
+
+      // Product name stays in URL path; uploaded JSON goes in multipart body.
+      const resolvedProductName = (formProductName || '').trim();
 
       if (!resolvedProductName) {
         throw new Error('Product name is required to upload inventory data');
@@ -53,36 +42,16 @@ export const productDataService = {
       
       console.log('[ProductService] PRODUCTS_API_URL is defined:', PRODUCTS_API_URL);
       
-      // 准备上传的产品数据
-      const productData: ProductInventoryData = {
-        "Beginning Inventory": fileData.beginningInventory || 0,
-        "COGS": fileData.cogs || 0,
-        "Ending Inventory": fileData.endingInventory || 0,
-        "Sales": fileData.sales || 0,
-        "Target Turnover": fileData.targetTurnover || 1000,
-        "id": fileData.id || `INV${fileData.period || "2025-01"}-${resolvedProductName.toLowerCase().replace(/\s+/g, '-')}`,
-        "period": fileData.period || "2025-01"
-      };
-      
-      console.log('[ProductService] Prepared product data:', { productData });
-      
-      // 修改: 直接使用产品数据作为请求体，不再包装在产品名对象中
-      const requestBody = productData;
-      
-      console.log('[ProductService] Prepared request body:', JSON.stringify(requestBody, null, 2));
-      
-      // 调用API上传产品数据
-      const normalizedProductName = resolvedProductName.toLowerCase().replace(/\s+/g, '-');
-      const apiUrl = buildProductsEndpoint(PRODUCTS_API_URL, normalizedProductName);
+      const apiUrl = buildProductsEndpoint(PRODUCTS_API_URL, resolvedProductName);
       
       console.log('[ProductService] Making API request to:', apiUrl);
+
+      const formData = new FormData();
+      formData.append('file', file);
       
       const response = await fetch(apiUrl, {
         method: 'POST',
-        headers: {
-          'Content-Type': 'application/json',
-        },
-        body: JSON.stringify(requestBody) // 直接发送产品数据，不再嵌套
+        body: formData
       });
       
       console.log('[ProductService] API response status:', response.status);

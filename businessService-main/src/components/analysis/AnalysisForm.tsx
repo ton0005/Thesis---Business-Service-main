@@ -2,6 +2,7 @@
 
 import { useState, FormEvent, useRef } from 'react';
 import { useRouter } from 'next/navigation';
+import { analysisService } from '@/services/analysisService';
 import styles from './AnalysisForm.module.css';
 
 export default function AnalysisForm() {
