@@ -2,7 +2,6 @@
 
 import { useState, FormEvent, useRef } from 'react';
 import { useRouter } from 'next/navigation';
-import { analysisService } from '@/services/analysisService';
 import styles from './AnalysisForm.module.css';
 
 export default function AnalysisForm() {
@@ -29,28 +28,16 @@ export default function AnalysisForm() {
     setUploadSuccess(false);
 
     const formData = new FormData(e.currentTarget);
-    
-    try {
-      await analysisService.requestAnalysis({
-        keyword: formData.get('keyword') as string,
-        startDate: formData.get('startDate') as string,
-        endDate: formData.get('endDate') as string,
-        videoCount: Number(formData.get('videoCount')),
-        commentCount: Number(formData.get('commentCount')),
-        file: fileInputRef.current?.files?.[0]
-      });
 
-      router.push(`/results?keyword=${formData.get('keyword')}&startDate=${formData.get('startDate')}&endDate=${formData.get('endDate')}&videoCount=${formData.get('videoCount')}&commentCount=${formData.get('commentCount')}`);
-    } catch (error) {
-      console.error('Analysis request failed:', error);
-      if (error instanceof Error) {
-        setFileError(error.message);
-      } else {
-        setFileError("An unknown error occurred during analysis.");
-      }
-    } finally {
-      setLoading(false);
-    }
+    const params = new URLSearchParams({
+      keyword: (formData.get('keyword') as string) || '',
+      startDate: (formData.get('startDate') as string) || '',
+      endDate: (formData.get('endDate') as string) || '',
+      videoCount: String(Number(formData.get('videoCount')) || 50),
+      commentCount: String(Number(formData.get('commentCount')) || 100)
+    });
+
+    router.push(`/results?${params.toString()}`);
   };
 
   const handleFileChange = () => {
