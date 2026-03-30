@@ -1,0 +1,251 @@
+{
+  "inventoryList": [
+    {
+      "sku": "LAPTOP-MBP-M3-001",
+      "productName": "MacBook Pro 14-inch M3",
+      "category": "Laptops",
+      "brand": "Apple",
+      "price": 1999.99,
+      "quantity": 25,
+      "specifications": {
+        "processor": "Apple M3 chip",
+        "ram": "16GB",
+        "storage": "512GB SSD",
+        "display": "14.2-inch Liquid Retina XDR"
+      },
+      "supplier": "Apple Inc.",
+      "lastRestocked": "2026-03-15"
+    },
+    {
+      "sku": "LAPTOP-DELL-XPS-002",
+      "productName": "Dell XPS 15",
+      "category": "Laptops",
+      "brand": "Dell",
+      "price": 1749.99,
+      "quantity": 18,
+      "specifications": {
+        "processor": "Intel Core i7-13700H",
+        "ram": "32GB DDR5",
+        "storage": "1TB SSD",
+        "display": "15.6-inch FHD+"
+      },
+      "supplier": "Dell Technologies",
+      "lastRestocked": "2026-03-20"
+    },
+    {
+      "sku": "PHONE-IPHONE-15P-003",
+      "productName": "iPhone 15 Pro Max",
+      "category": "Smartphones",
+      "brand": "Apple",
+      "price": 1199.99,
+      "quantity": 45,
+      "specifications": {
+        "processor": "A17 Pro chip",
+        "storage": "256GB",
+        "display": "6.7-inch Super Retina XDR",
+        "camera": "48MP Main, 12MP Ultra Wide, 12MP Telephoto"
+      },
+      "supplier": "Apple Inc.",
+      "lastRestocked": "2026-03-25"
+    },
+    {
+      "sku": "PHONE-SAMSUNG-S24-004",
+      "productName": "Samsung Galaxy S24 Ultra",
+      "category": "Smartphones",
+      "brand": "Samsung",
+      "price": 1299.99,
+      "quantity": 32,
+      "specifications": {
+        "processor": "Snapdragon 8 Gen 3",
+        "storage": "512GB",
+        "display": "6.8-inch Dynamic AMOLED 2X",
+        "camera": "200MP Main, 50MP Telephoto, 12MP Ultra Wide"
+      },
+      "supplier": "Samsung Electronics",
+      "lastRestocked": "2026-03-22"
+    },
+    {
+      "sku": "TABLET-IPAD-PRO-005",
+      "productName": "iPad Pro 12.9-inch M2",
+      "category": "Tablets",
+      "brand": "Apple",
+      "price": 1099.99,
+      "quantity": 20,
+      "specifications": {
+        "processor": "Apple M2 chip",
+        "storage": "256GB",
+        "display": "12.9-inch Liquid Retina XDR",
+        "connectivity": "Wi-Fi 6E + 5G"
+      },
+      "supplier": "Apple Inc.",
+      "lastRestocked": "2026-03-18"
+    },
+    {
+      "sku": "MONITOR-LG-ULTRA-006",
+      "productName": "LG UltraGear 27-inch Gaming Monitor",
+      "category": "Monitors",
+      "brand": "LG",
+      "price": 449.99,
+      "quantity": 30,
+      "specifications": {
+        "resolution": "2560x1440 QHD",
+        "refreshRate": "165Hz",
+        "panelType": "IPS",
+        "responseTime": "1ms"
+      },
+      "supplier": "LG Electronics",
+      "lastRestocked": "2026-03-10"
+    },
+    {
+      "sku": "HEADPHONE-SONY-WH1000-007",
+      "productName": "Sony WH-1000XM5 Wireless Headphones",
+      "category": "Audio",
+      "brand": "Sony",
+      "price": 399.99,
+      "quantity": 50,
+      "specifications": {
+        "type": "Over-ear",
+        "connectivity": "Bluetooth 5.2",
+        "noiseCancellation": "Active",
+        "batteryLife": "30 hours"
+      },
+      "supplier": "Sony Corporation",
+      "lastRestocked": "2026-03-28"
+    },
+    {
+      "sku": "KEYBOARD-LOGITECH-MX-008",
+      "productName": "Logitech MX Keys S",
+      "category": "Accessories",
+      "brand": "Logitech",
+      "price": 119.99,
+      "quantity": 65,
+      "specifications": {
+        "type": "Wireless Mechanical",
+        "connectivity": "Bluetooth + USB-C Receiver",
+        "backlighting": "Smart Ambient",
+        "batteryLife": "10 days (backlight on)"
+      },
+      "supplier": "Logitech International",
+      "lastRestocked": "2026-03-27"
+    },
+    {
+      "sku": "MOUSE-LOGITECH-MXM3-009",
+      "productName": "Logitech MX Master 3S",
+      "category": "Accessories",
+      "brand": "Logitech",
+      "price": 99.99,
+      "quantity": 72,
+      "specifications": {
+        "type": "Wireless Ergonomic",
+        "sensor": "8000 DPI",
+        "connectivity": "Bluetooth + USB-C Receiver",
+        "batteryLife": "70 days"
+      },
+      "supplier": "Logitech International",
+      "lastRestocked": "2026-03-27"
+    },
+    {
+      "sku": "STORAGE-SAMSUNG-SSD-010",
+      "productName": "Samsung 990 PRO 2TB NVMe SSD",
+      "category": "Storage",
+      "brand": "Samsung",
+      "price": 219.99,
+      "quantity": 40,
+      "specifications": {
+        "capacity": "2TB",
+        "interface": "PCIe 4.0 x4 NVMe",
+        "readSpeed": "7450 MB/s",
+        "writeSpeed": "6900 MB/s"
+      },
+      "supplier": "Samsung Electronics",
+      "lastRestocked": "2026-03-12"
+    },
+    {
+      "sku": "CAMERA-CANON-EOS-011",
+      "productName": "Canon EOS R6 Mark II",
+      "category": "Cameras",
+      "brand": "Canon",
+      "price": 2499.99,
+      "quantity": 12,
+      "specifications": {
+        "sensor": "24.2MP Full-Frame CMOS",
+        "videoResolution": "4K 60fps",
+        "autofocus": "Dual Pixel CMOS AF II",
+        "stabilization": "In-Body 5-axis"
+      },
+      "supplier": "Canon Inc.",
+      "lastRestocked": "2026-03-05"
+    },
+    {
+      "sku": "SPEAKER-SONOS-ERA-012",
+      "productName": "Sonos Era 300",
+      "category": "Audio",
+      "brand": "Sonos",
+      "price": 449.99,
+      "quantity": 28,
+      "specifications": {
+        "type": "Smart Speaker",
+        "connectivity": "Wi-Fi, Bluetooth",
+        "voiceControl": "Amazon Alexa, Sonos Voice",
+        "audioFormat": "Dolby Atmos"
+      },
+      "supplier": "Sonos Inc.",
+      "lastRestocked": "2026-03-19"
+    },
+    {
+      "sku": "ROUTER-ASUS-GT-013",
+      "productName": "ASUS ROG Rapture GT-AXE16000",
+      "category": "Networking",
+      "brand": "ASUS",
+      "price": 649.99,
+      "quantity": 15,
+      "specifications": {
+        "standard": "Wi-Fi 6E (802.11ax)",
+        "speed": "16000 Mbps",
+        "ports": "2.5G WAN, 4x 1G LAN, 2x 10G LAN",
+        "features": "Gaming optimization, VPN support"
+      },
+      "supplier": "ASUSTeK Computer Inc.",
+      "lastRestocked": "2026-03-08"
+    },
+    {
+      "sku": "WATCH-APPLE-S9-014",
+      "productName": "Apple Watch Series 9",
+      "category": "Wearables",
+      "brand": "Apple",
+      "price": 429.99,
+      "quantity": 38,
+      "specifications": {
+        "display": "Always-On Retina LTPO OLED",
+        "size": "45mm",
+        "processor": "S9 SiP",
+        "sensors": "ECG, Blood Oxygen, Temperature"
+      },
+      "supplier": "Apple Inc.",
+      "lastRestocked": "2026-03-23"
+    },
+    {
+      "sku": "CHARGER-ANKER-747-015",
+      "productName": "Anker 747 GaNPrime 150W Charger",
+      "category": "Accessories",
+      "brand": "Anker",
+      "price": 109.99,
+      "quantity": 85,
+      "specifications": {
+        "maxPower": "150W",
+        "ports": "2x USB-C, 2x USB-A",
+        "technology": "GaN (Gallium Nitride)",
+        "features": "PowerIQ 4.0, ActiveShield 2.0"
+      },
+      "supplier": "Anker Innovations",
+      "lastRestocked": "2026-03-26"
+    }
+  ],
+  "metadata": {
+    "generatedDate": "2026-03-30",
+    "totalProducts": 15,
+    "totalInventoryValue": 20537.70,
+    "storeName": "TechVault Retail",
+    "currency": "USD"
+  }
+}

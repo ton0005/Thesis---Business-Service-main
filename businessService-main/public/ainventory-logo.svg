@@ -1,0 +1,10 @@
+<svg width="400" height="100" viewBox="0 0 400 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Yellow Circular Icon -->
+  <circle cx="50" cy="50" r="35" fill="#FCD34D" stroke="#F59E0B" stroke-width="3"/>
+  <circle cx="50" cy="50" r="20" fill="none" stroke="#F59E0B" stroke-width="4" stroke-linecap="round" stroke-dasharray="0 30"/>
+  
+  <!-- AIventory Text in Black -->
+  <text x="105" y="65" font-family="Arial, sans-serif" font-size="48" font-weight="700" fill="#000000">
+    AIventory
+  </text>
+</svg>
