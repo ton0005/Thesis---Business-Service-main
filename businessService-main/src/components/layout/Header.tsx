@@ -37,10 +37,10 @@ export default function Header() {
                 <Image
                   src={isDarkMode ? "/ainventory-logo-dark.svg" : "/ainventory-logo.svg"}
                   alt="AIventory Logo"
-                  width={200}
-                  height={50}
+                  width={300}
+                  height={75}
                   priority
-                  className={`transition-all duration-300 ${isDarkMode ? 'opacity-80' : 'opacity-100'}`}
+                  className="transition-all duration-300 opacity-80"
                 />
               </div>
           </div>
