@@ -33,14 +33,23 @@ export default function Header() {
       <div className="container mx-auto px-4">
         <div className="flex justify-between items-center py-4">
           <div className="flex items-center gap-2">
-              <div className={`relative transition-all duration-300 ${isDarkMode ? 'drop-shadow-[0_0_20px_rgba(59,130,246,0.8)] brightness-110 contrast-125' : ''}`}>
+              <div className={`relative transition-all duration-300 rounded-lg ${
+                isDarkMode 
+                  ? 'bg-black p-3 shadow-[0_0_25px_rgba(250,204,21,0.6)]' 
+                  : ''
+              }`}>
                 <Image
                   src="/ainventory-logo.png"
                   alt="AIventory Logo"
                   width={200}
                   height={200}
                   priority
-                  className={`${isDarkMode ? 'filter brightness-110' : ''}`}
+                  className={`transition-all duration-300 ${
+                    isDarkMode 
+                      ? 'brightness-125 contrast-110 saturate-150 hue-rotate-[10deg] drop-shadow-[0_0_8px_rgba(250,204,21,0.8)]' 
+                      : ''
+                  }`}
+                  style={isDarkMode ? { filter: 'sepia(100%) saturate(300%) brightness(120%) hue-rotate(-10deg)' } : {}}
                 />
               </div>
           </div>
