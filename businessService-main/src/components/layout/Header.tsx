@@ -40,7 +40,7 @@ export default function Header() {
                   width={200}
                   height={50}
                   priority
-                  className="transition-opacity duration-300"
+                  className={`transition-all duration-300 ${isDarkMode ? 'opacity-80' : 'opacity-100'}`}
                 />
               </div>
           </div>
