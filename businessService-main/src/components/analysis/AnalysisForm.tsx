@@ -7,6 +7,7 @@ import styles from './AnalysisForm.module.css';
 
 export default function AnalysisForm() {
   const [loading, setLoading] = useState(false);
+  const [uploading, setUploading] = useState(false);
   const [fileName, setFileName] = useState("");
   const [fileError, setFileError] = useState("");
   const [uploadSuccess, setUploadSuccess] = useState(false);
@@ -90,7 +91,7 @@ export default function AnalysisForm() {
       return;
     }
     
-    setLoading(true);
+    setUploading(true);
     setFileError("");
     setUploadSuccess(false);
     
@@ -123,7 +124,7 @@ export default function AnalysisForm() {
         setFileError("An unknown error occurred during file upload.");
       }
     } finally {
-      setLoading(false);
+      setUploading(false);
     }
   };
 
@@ -172,7 +173,7 @@ export default function AnalysisForm() {
                   type="button" 
                   onClick={handleUploadOnly} 
                   className={styles.uploadButton}
-                  disabled={loading}
+                  disabled={uploading}
                 >
                   {loading ? (
                     <>
@@ -267,7 +268,7 @@ export default function AnalysisForm() {
           <button 
             type="submit" 
             className={styles.submitButton}
-            disabled={loading}
+            disabled={loading || uploading}
           >
             {loading ? (
               <>
