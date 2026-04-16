@@ -268,7 +268,7 @@ export default function AnalysisForm() {
           <button 
             type="submit" 
             className={styles.submitButton}
-            disabled={loading || uploading}
+            disabled={loading}
           >
             {loading ? (
               <>
