@@ -112,10 +112,19 @@ export const apiClient = {
           const data = await response.json();
           console.log('Gemini orchestrator response received:', data);
           
-          // Process the unified response
-          return this.processUnifiedResponse(params.keyword, params.startDate, params.endDate, data);
+          // Check if the response contains error details instead of valid analysis
+          if (data.error || data.details) {
+            console.warn('[API] /gemini returned error in response body:', {
+              error: data.error,
+              details: data.details
+            });
+            console.warn('[API] Falling back to individual APIs due to /gemini error response');
+          } else {
+            // Process the unified response
+            return this.processUnifiedResponse(params.keyword, params.startDate, params.endDate, data);
+          }
         } else {
-          console.warn(`/gemini returned ${response.status}, falling back to individual APIs`);
+          console.warn(`[API] /gemini returned HTTP ${response.status}, falling back to individual APIs`);
         }
       } catch (error) {
         console.error('/gemini request failed:', error);
