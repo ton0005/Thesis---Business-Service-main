@@ -8,6 +8,16 @@ const TREND_API_URL = process.env.NEXT_PUBLIC_TREND_API_URL;
 const SENTIMENT_API_URL = process.env.NEXT_PUBLIC_SENTIMENT_API_URL;
 const CACHE_EXPIRY_MS = 5000; // 缓存过期时间，可以后续移到环境变量
 
+// Debug: Log environment variables on initialization
+if (typeof window !== 'undefined') {
+  console.log('[APIClient] Environment Variables Loaded:', {
+    USE_MOCK_DATA,
+    GEMINI_API_URL: GEMINI_API_URL ? '✅ Configured' : '❌ Not configured',
+    TREND_API_URL: TREND_API_URL ? '✅ Configured' : '❌ Not configured',
+    SENTIMENT_API_URL: SENTIMENT_API_URL ? '✅ Configured' : '❌ Not configured',
+  });
+}
+
 // 添加请求缓存
 const requestCache = new Map<string, Promise<AnalysisResult>>();
 
@@ -52,9 +62,11 @@ export const apiClient = {
    * Strategy: First try /gemini (orchestrator), fallback to individual APIs if needed
    */
   async _fetchAnalysisData(params: AnalysisParams): Promise<AnalysisResult> {
+    console.log('[API] _fetchAnalysisData called with params:', params);
+    
     // 如果使用模拟数据，直接返回模拟响应
     if (USE_MOCK_DATA) {
-      console.log('Using mock data');
+      console.log('[API] ⚠️ USE_MOCK_DATA is TRUE - using mock response');
       return await getMockAnalysisResponse(
         params.keyword,
         params.startDate,
@@ -63,6 +75,8 @@ export const apiClient = {
         params.commentCount
       );
     }
+    
+    console.log('[API] USE_MOCK_DATA is false - attempting to call real APIs');
     
     // Request body for APIs
     const requestBody = {
@@ -76,7 +90,7 @@ export const apiClient = {
     // STEP 1: Try calling /gemini first (orchestrator endpoint)
     if (GEMINI_API_URL) {
       try {
-        console.log('Calling /gemini orchestrator endpoint:', GEMINI_API_URL);
+        console.log('[API] STEP 1: Attempting /gemini endpoint:', GEMINI_API_URL);
         
         // Create dedicated abort controller for /gemini
         const geminiController = new AbortController();
@@ -116,7 +130,9 @@ export const apiClient = {
     }
     
     // STEP 2: Fallback - call individual APIs if /gemini failed
-    console.log('🔄 Falling back to individual API calls...');
+    console.log('[API] STEP 2: Falling back to individual API calls...');
+    console.log('[API] TREND_API_URL configured?', TREND_API_URL ? 'YES' : 'NO');
+    console.log('[API] SENTIMENT_API_URL configured?', SENTIMENT_API_URL ? 'YES' : 'NO');
     const missingDataSources: string[] = [];
     let trendData: any[] = [];
     let sentimentData: any[] = [];
@@ -124,7 +140,7 @@ export const apiClient = {
     // Fetch Trend Data
     if (TREND_API_URL) {
       try {
-        console.log('📊 Fetching trend data from:', TREND_API_URL);
+        console.log('[API] 📊 Fetching trend data from:', TREND_API_URL);
         
         const trendController = new AbortController();
         const trendTimeoutId = setTimeout(() => {
